@@ -5,18 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ademario Oliveira — Construção Civil</title>
-
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=Barlow:wght@300;400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,17 +21,17 @@
         <div class="container">
             <div class="nav-inner">
                 <a href="#" class="logo">
-                    <div class="logo-icon"><i class="fas fa-building"></i></div>
+                    <div class="logo-icon"><i class="fas fa-house-chimney"></i></div>
                     <div class="logo-text">
                         <span class="logo-name">ADEMARIO <span>OLIVEIRA</span></span>
                         <span class="logo-sub">Construção Civil</span>
                     </div>
                 </a>
                 <ul class="nav-links">
-                    <li><a href="#programa">O Programa</a></li>
+                    <li><a href="#programa">Financiamento</a></li>
                     <li><a href="#solucoes">Serviços</a></li>
                     <li><a href="#sobre">Empresa</a></li>
-                    <li><a href="#depoimentos">Obras</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
                 </ul>
                 <a href="#contato" class="btn-nav">Solicitar Orçamento</a>
             </div>
@@ -46,51 +40,60 @@
 
     <!-- HERO -->
     <section id="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-grid-lines"></div>
-        <div class="container" style="position:relative;z-index:2;width:100%;">
-            <div class="hero-content">
-                <div class="tag hero-tag reveal">Excelência Técnica</div>
-                <h1 class="hero-headline reveal" style="transition-delay:0.1s">
-                    Construímos<br>
-                    <span class="line2">com Precisão,</span>
-                    Entregamos<br>com Qualidade.
-                </h1>
-                <div class="hero-divider reveal" style="transition-delay:0.2s"></div>
-                <p class="hero-desc reveal" style="transition-delay:0.3s">
-                    De reformas residenciais a grandes projetos estruturais. Ademario Oliveira oferece a segurança
-                    técnica que sua obra exige e o acabamento que seu sonho merece.
-                </p>
-                <div class="hero-ctas reveal" style="transition-delay:0.4s">
-                    <a href="#contato" class="btn-primary">Solicitar Visita Técnica <i
-                            class="fas fa-arrow-right"></i></a>
-                    <a href="#solucoes" class="btn-secondary">Ver Portfólio <i class="fas fa-chevron-right"></i></a>
+        <div class="hero-bg-img"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="container" style="position:relative;z-index:3;width:100%;">
+            <div class="hero-inner">
+                <!-- Coluna esquerda: texto -->
+                <div class="hero-content">
+                    <div class="hero-tag-pill reveal">Especialistas em Primeiro Lar</div>
+                    <h1 class="hero-headline reveal" style="transition-delay:.1s">
+                        Sua Casa Própria<br>
+                        <span class="accent">é Possível,</span><br>
+                        <span class="line-blue">Mesmo Negativado.</span>
+                    </h1>
+                    <div class="hero-rule-line reveal" style="transition-delay:.2s"></div>
+                    <p class="hero-desc reveal" style="transition-delay:.3s">
+                        Limpamos seu nome, regularizamos seu CPF e conduzimos o financiamento pela Caixa. Do diagnóstico
+                        à entrega das chaves — com suporte técnico em cada etapa.
+                    </p>
+
+                    <div class="hero-ctas reveal" style="transition-delay:.4s">
+                        <a href="#contato" class="btn-primary">Quero Minha Análise Gratuita <i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="#programa" class="btn-secondary">Como Funciona <i class="fas fa-chevron-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="hero-scroll-hint">
             <div class="scroll-line"></div>
             <span>Role para baixo</span>
         </div>
-
     </section>
 
     <!-- STATS BAR -->
     <section id="stats">
         <div class="stats-grid">
             <div class="stat-item reveal">
+                <div class="stat-icon"><i class="fas fa-house-chimney"></i></div>
                 <div class="stat-num"><span class="count-num" data-target="120">0</span>+</div>
                 <div class="stat-label">Obras Entregues</div>
             </div>
-            <div class="stat-item reveal" style="transition-delay:0.1s">
+            <div class="stat-item reveal" style="transition-delay:.1s">
+                <div class="stat-icon"><i class="fas fa-ruler-combined"></i></div>
                 <div class="stat-num"><span class="count-num" data-target="10">0</span>k+</div>
                 <div class="stat-label">m² Construídos</div>
             </div>
-            <div class="stat-item reveal" style="transition-delay:0.2s">
+            <div class="stat-item reveal" style="transition-delay:.2s">
+                <div class="stat-icon"><i class="fas fa-helmet-safety"></i></div>
                 <div class="stat-num">0</div>
                 <div class="stat-label">Acidentes de Trabalho</div>
             </div>
-            <div class="stat-item reveal" style="transition-delay:0.3s">
+            <div class="stat-item reveal" style="transition-delay:.3s">
+                <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
                 <div class="stat-num"><span class="count-num" data-target="100">0</span>%</div>
                 <div class="stat-label">Prazos Cumpridos</div>
             </div>
@@ -102,48 +105,50 @@
         <div class="container">
             <div class="programa-grid">
                 <div class="reveal-left">
-                    <div class="tag section-tag">Líder em Regularização Imobiliária</div>
-                    <h2 class="section-title">
-                        Está<br>Negativado?<br>
-                        <span class="hl">Limpamos<br>Seu Nome</span><br>
-                        e Financiamos!
+                    <div class="tag section-tag">Especialidade nº 1</div>
+                    <h2 class="section-title" style="margin-top:16px">
+                        Está Negativado?<br>
+                        <span class="hl">Abrimos Esse<br>Caminho</span> Para Você.
                     </h2>
                     <p class="section-body">
-                        Não é apenas sobre construir, é sobre <strong>viabilizar</strong>. Somos especialistas em
-                        <strong>Automatização da Caixa</strong> e <strong>Projetos de Financiamento</strong> para quem o
-                        mercado disse "não".
+                        Não deixe que restrições de crédito separem você da sua casa. Somos especialistas em
+                        <strong>Regularização de CPF</strong> e <strong>Projetos de Financiamento pela Caixa</strong>
+                        para quem o banco disse "não".
                     </p>
-                    <a href="#contato" class="btn-primary">Como Funciona <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contato" class="btn-primary"
+                        style="background:var(--blue-mid);box-shadow:0 4px 20px rgba(37,99,176,.3)">
+                        Quero Minha Análise Gratuita <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 <div class="reveal-right">
                     <div class="steps-list">
                         <div class="step-item">
-                            <div class="step-icon-box"><i class="fas fa-shield-halved"></i></div>
+                            <div class="step-icon-box"><i class="fas fa-magnifying-glass"></i></div>
                             <div class="step-info">
-                                <h4>01 — Diagnóstico</h4>
-                                <p>Avaliação completa do seu CPF e histórico de crédito para mapear o melhor caminho.
+                                <h4>01 — Diagnóstico Gratuito</h4>
+                                <p>Avaliação completa do seu CPF e histórico de crédito, sem custo e sem compromisso.
                                 </p>
                             </div>
                         </div>
                         <div class="step-item">
-                            <div class="step-icon-box"><i class="fas fa-user-check"></i></div>
+                            <div class="step-icon-box"><i class="fas fa-shield-halved"></i></div>
                             <div class="step-info">
-                                <h4>02 — Limpeza</h4>
-                                <p>Regularização jurídica e remoção de restrições em tempo recorde.</p>
+                                <h4>02 — Limpeza do Nome</h4>
+                                <p>Regularização jurídica e remoção de restrições com agilidade e total sigilo.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <div class="step-icon-box"><i class="fas fa-landmark"></i></div>
                             <div class="step-info">
-                                <h4>03 — Financiamento</h4>
-                                <p>Montagem do processo para a Caixa com foco em aprovação máxima.</p>
+                                <h4>03 — Aprovação na Caixa</h4>
+                                <p>Montamos todo o processo de financiamento com foco em máxima aprovação.</p>
                             </div>
                         </div>
                         <div class="step-item">
                             <div class="step-icon-box"><i class="fas fa-person-digging"></i></div>
                             <div class="step-info">
-                                <h4>04 — Obra</h4>
-                                <p>Início imediato da construção com acompanhamento documental completo.</p>
+                                <h4>04 — Construção Completa</h4>
+                                <p>Início imediato da obra com acompanhamento técnico e documental do início ao fim.</p>
                             </div>
                         </div>
                     </div>
@@ -158,44 +163,44 @@
             <div class="section-header">
                 <div class="section-header-inner">
                     <div>
-                        <div class="tag reveal" style="margin-bottom:16px">Soluções em Engenharia</div>
-                        <h2 class="section-title reveal" style="transition-delay:0.1s">Nossas <span
-                                class="hl">Soluções</span></h2>
+                        <div class="tag reveal" style="margin-bottom:14px">O Que Fazemos</div>
+                        <h2 class="section-title reveal" style="transition-delay:.1s">
+                            Nossas <span class="hl-blue">Soluções</span>
+                        </h2>
                     </div>
-                    <p class="reveal"
-                        style="max-width:340px;font-size:15px;color:var(--gray-mid);line-height:1.7;transition-delay:0.2s">
-                        Do crédito ao canteiro — cada etapa da sua obra em mãos especializadas.
+                    <p class="section-header-desc reveal" style="transition-delay:.2s">
+                        Do crédito ao canteiro — cada etapa da sua obra em mãos experientes.
                     </p>
                 </div>
             </div>
-            <div class="solutions-grid reveal" style="transition-delay:0.2s">
+            <div class="solutions-grid reveal" style="transition-delay:.2s">
                 <div class="solution-card featured">
-                    <div class="sol-icon"><i class="fas fa-user-check"></i></div>
+                    <div class="sol-icon"><i class="fas fa-key"></i></div>
                     <h3 class="sol-title">Crédito para Negativados</h3>
-                    <p class="sol-desc">Nosso serviço exclusivo: Limpamos seu nome e regularizamos seu CPF para
-                        viabilizar o financiamento e construção da sua casa.</p>
-                    <a href="#programa" class="sol-link">Como Funciona <i class="fas fa-arrow-right"></i></a>
+                    <p class="sol-desc">Serviço exclusivo: regularizamos seu CPF e viabilizamos o financiamento e
+                        construção da sua casa, mesmo com restrições de crédito.</p>
+                    <a href="#programa" class="sol-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="solution-card">
                     <div class="sol-icon"><i class="fas fa-hammer"></i></div>
                     <h3 class="sol-title">Reformas de Alto Padrão</h3>
                     <p class="sol-desc">Transformamos ambientes residenciais e comerciais com acabamentos finos e
                         execução rigorosa.</p>
-                    <a href="#contato" class="sol-link">Consultar Obra <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contato" class="sol-link">Consultar <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="solution-card">
                     <div class="sol-icon"><i class="fas fa-helmet-safety"></i></div>
                     <h3 class="sol-title">Gestão de Obras</h3>
-                    <p class="sol-desc">Controle total de prazos, custos e fornecedores para que você não tenha
-                        preocupações no canteiro.</p>
-                    <a href="#contato" class="sol-link">Consultar Obra <i class="fas fa-arrow-right"></i></a>
+                    <p class="sol-desc">Controle total de prazos, custos e fornecedores. Você foca na família — nós
+                        cuidamos da obra.</p>
+                    <a href="#contato" class="sol-link">Consultar <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="solution-card">
                     <div class="sol-icon"><i class="fas fa-ruler"></i></div>
                     <h3 class="sol-title">Projetos e Consultoria</h3>
-                    <p class="sol-desc">Viabilização técnica e projetos estruturais focados em eficiência e segurança
-                        para sua edificação.</p>
-                    <a href="#contato" class="sol-link">Consultar Obra <i class="fas fa-arrow-right"></i></a>
+                    <p class="sol-desc">Viabilização técnica e projetos estruturais com foco em eficiência, segurança e
+                        economia de materiais.</p>
+                    <a href="#contato" class="sol-link">Consultar <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -208,9 +213,8 @@
                 <div class="doc-left">
                     <div class="doc-left-title"><i class="fas fa-file-shield"></i> Consultoria Documental</div>
                     <h3>Muitos Param<br>na Papelada.</h3>
-                    <p>Nós cuidamos do <strong>Licenciamento</strong>, <strong>Planta da Casa</strong> e do
-                        <strong>Projeto de Financiamento</strong> completo para você não ter stress.
-                    </p>
+                    <p>Cuidamos do <strong>Licenciamento</strong>, <strong>Planta da Casa</strong> e do <strong>Projeto
+                            de Financiamento</strong> completo — para você sem estresse.</p>
                     <div class="checklist">
                         <div class="check-item"><i class="fas fa-circle-check"></i> Regularização de Terreno</div>
                         <div class="check-item"><i class="fas fa-circle-check"></i> Alvará de Construção</div>
@@ -220,8 +224,9 @@
                 </div>
                 <div class="doc-right">
                     <h3>Pronto para Dar o Primeiro Passo?</h3>
-                    <p>Saia da estagnação e comece a ver as paredes subirem. Fale com um especialista agora.</p>
-                    <a href="#contato" class="btn-dark">Falar com Especialista <i class="fas fa-arrow-right"></i></a>
+                    <p>Saia da estagnação. Comece a ver as paredes da sua casa subirem. Fale com um especialista hoje.
+                    </p>
+                    <a href="#contato" class="btn-white">Falar com Especialista <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -233,10 +238,8 @@
             <div class="sobre-grid">
                 <div class="sobre-img-wrap reveal-left">
                     <div class="sobre-img-frame">
-                        <!-- Substitua por: <img src="foto-ademario.jpg" class="sobre-img" alt="Ademario Oliveira"> -->
                         <div class="sobre-img-placeholder">
-                            <i class="fas fa-hard-hat"></i>
-                            <span>Foto do Profissional</span>
+                            <img src="./image/foto-ademario.jpeg" class="sobre-img" alt="Ademario Oliveira">
                         </div>
                     </div>
                     <div class="sobre-badge">
@@ -244,33 +247,27 @@
                         <div class="sobre-badge-label">Anos de Experiência</div>
                     </div>
                 </div>
-                <div class="sobre-content reveal-right">
-                    <div class="tag section-tag">Mestre de Obras e Gestor</div>
-                    <h2 style="margin-top:20px">
-                        <span
-                            style="font-family:var(--font-display);font-size:clamp(36px,4vw,52px);font-weight:900;text-transform:uppercase;display:block;line-height:1">Ademario</span>
-                        <span
-                            style="font-family:var(--font-display);font-size:clamp(36px,4vw,52px);font-weight:900;text-transform:uppercase;color:var(--amber);display:block;line-height:1">Oliveira</span>
-                    </h2>
-                    <div class="sobre-subtitle" style="margin-top:8px">Engenheiro Civil · Gestor de Obras</div>
+                <div class="reveal-right">
+                    <div class="tag tag-earth section-tag">Mestre de Obras e Gestor</div>
+                    <div class="sobre-name" style="margin-top:16px">
+                        Ademario<br><span class="hl">Oliveira</span>
+                    </div>
+                    <p class="sobre-subtitle">Engenheiro Civil · Gestor de Obras</p>
                     <div class="sobre-divider"></div>
                     <p class="sobre-text">
                         Minha trajetória na construção civil é pautada pelo respeito ao canteiro de obras e à engenharia
-                        de precisão. Como gestor, entendo que uma obra bem sucedida nasce na organização e morre no
+                        de precisão. Como gestor, entendo que uma obra bem-sucedida nasce na organização e termina no
                         detalhe final.
                     </p>
                     <p class="sobre-text">
-                        Especialista em reformas de luxo e estruturas complexas, trago para seu projeto uma visão
+                        Especialista em financiamentos para negativados e reformas de alto padrão, trago uma visão
                         integrada que une economia de materiais à máxima durabilidade estrutural.
                     </p>
                     <div class="sobre-skills">
-                        <div class="skill-item"><i class="fas fa-circle-check"></i> Cálculo Estrutural e Viabilidade
-                        </div>
+                        <div class="skill-item"><i class="fas fa-circle-check"></i> Cálculo Estrutural</div>
                         <div class="skill-item"><i class="fas fa-circle-check"></i> Mão de Obra Qualificada</div>
-                        <div class="skill-item"><i class="fas fa-circle-check"></i> Gestão de Resíduos (Obra Limpa)
-                        </div>
-                        <div class="skill-item"><i class="fas fa-circle-check"></i> Segurança do Trabalho (EPI/EPC)
-                        </div>
+                        <div class="skill-item"><i class="fas fa-circle-check"></i> Gestão de Resíduos</div>
+                        <div class="skill-item"><i class="fas fa-circle-check"></i> Segurança do Trabalho</div>
                     </div>
                 </div>
             </div>
@@ -280,17 +277,19 @@
     <!-- DEPOIMENTOS -->
     <section id="depoimentos">
         <div class="container">
-            <div class="section-header">
-                <div class="tag reveal">O que dizem nossos clientes</div>
-                <h2 class="section-title reveal" style="transition-delay:0.1s;margin-top:16px">
-                    Resultados que <span class="hl">Falam</span>
-                </h2>
-            </div>
+            <div class="dep-tag reveal">O que dizem nossos clientes</div>
+            <h2 class="dep-title reveal" style="transition-delay:.1s">
+                Resultados que <span class="hl">Falam</span>
+            </h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card reveal">
-                    <span class="quote-mark">"</span>
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <div class="quote-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                     <p class="testimonial-text">A reforma do meu apartamento foi entregue rigorosamente no prazo. O
-                        Ademario tem um olho clínico para detalhes de acabamento.</p>
+                        Ademario tem um olho clínico para detalhes de acabamento que fazem toda a diferença.</p>
                     <div class="testimonial-author">
                         <div class="author-avatar"><i class="fas fa-user"></i></div>
                         <div>
@@ -299,10 +298,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card reveal" style="transition-delay:0.15s">
-                    <span class="quote-mark">"</span>
+                <div class="testimonial-card reveal" style="transition-delay:.15s">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <div class="quote-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                     <p class="testimonial-text">Trabalhar com o Ademario é garantia de que o projeto será executado
-                        exatamente como planejado. Confiança total na parte técnica.</p>
+                        exatamente como planejado. Confiança total na parte técnica e no atendimento.</p>
                     <div class="testimonial-author">
                         <div class="author-avatar"><i class="fas fa-user"></i></div>
                         <div>
@@ -311,8 +314,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card reveal" style="transition-delay:0.3s">
-                    <span class="quote-mark">"</span>
+                <div class="testimonial-card reveal" style="transition-delay:.3s">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <div class="quote-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
                     <p class="testimonial-text">Profissionalismo do início ao fim. Gestão rigorosa do canteiro, equipe
                         treinada e entrega sem surpresas. Recomendo sem hesitar.</p>
                     <div class="testimonial-author">
@@ -332,10 +339,10 @@
         <div class="container">
             <div class="contato-grid">
                 <div class="reveal-left">
-                    <div class="tag" style="margin-bottom:24px">Vamos Obrar?</div>
-                    <h2 class="contato-heading">Solicite seu <span class="hl">Orçamento</span></h2>
-                    <p class="contato-desc">Evite dores de cabeça, desperdício de material e atrasos. Agende agora uma
-                        visita técnica com o Ademario Oliveira e receba um orçamento profissional e transparente.</p>
+                    <div class="tag tag-orange" style="margin-bottom:20px">Vamos Conversar?</div>
+                    <h2 class="contato-heading">Solicite seu<br><span class="hl">Orçamento</span></h2>
+                    <p class="contato-desc">Evite atrasos e desperdício de material. Agende uma visita técnica gratuita
+                        e receba um orçamento profissional e transparente.</p>
                     <div class="contact-info-list">
                         <div class="contact-info-item">
                             <div class="contact-icon"><i class="fas fa-phone"></i></div>
@@ -354,7 +361,7 @@
                         <div class="contact-info-item">
                             <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                             <div>
-                                <div class="contact-label">E-mail Técnico</div>
+                                <div class="contact-label">E-mail</div>
                                 <div class="contact-value">obras@ademario.com.br</div>
                             </div>
                         </div>
@@ -380,9 +387,9 @@
                         <div class="form-group">
                             <label class="form-label">Tipo de Serviço</label>
                             <select class="form-select form-input">
+                                <option>Crédito para Negativados</option>
                                 <option>Reforma Residencial</option>
                                 <option>Construção Nova</option>
-                                <option>Crédito para Negativados</option>
                                 <option>Gestão de Obra</option>
                                 <option>Projeto e Consultoria</option>
                             </select>
@@ -392,8 +399,7 @@
                             <textarea class="form-textarea form-input"
                                 placeholder="Descreva brevemente sua obra (m², localização, prazos)..."></textarea>
                         </div>
-                        <button class="btn-submit">Enviar Solicitação Técnica <i
-                                class="fas fa-arrow-right"></i></button>
+                        <button class="btn-submit">Enviar Solicitação <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -404,32 +410,28 @@
     <footer id="footer">
         <div class="container">
             <div class="footer-inner">
-                <a href="#" class="logo">
-                    <div class="logo-icon" style="width:36px;height:36px"><i class="fas fa-building"
-                            style="font-size:14px"></i></div>
-                    <div class="logo-text">
-                        <span class="logo-name" style="font-size:14px">ADEMARIO <span>OLIVEIRA</span></span>
-                        <span class="logo-sub">Construção Civil</span>
+                <a href="#" class="footer-logo">
+                    <div class="footer-logo-icon"><i class="fas fa-house-chimney"></i></div>
+                    <div>
+                        <div class="footer-logo-name">ADEMARIO <span>OLIVEIRA</span></div>
+                        <div class="footer-logo-sub">Construção Civil</div>
                     </div>
                 </a>
                 <p class="footer-copy">© 2026 Ademario Oliveira Construção Civil. Todos os direitos reservados.</p>
                 <div class="footer-socials">
                     <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="social-btn"><i class="fas fa-shield-halved"></i></a>
+                    <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp Float -->
     <a href="https://wa.me/5511999990000" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
-
 </body>
 
 </html>
