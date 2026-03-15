@@ -258,6 +258,7 @@ body {
     font-size: 15px;
     font-weight: 800;
     letter-spacing: .5px;
+    padding-bottom: 3px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -271,6 +272,7 @@ body {
     font-size: 9px;
     font-weight: 500;
     letter-spacing: 3px;
+    padding-bottom: 3px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4);
 }
@@ -1978,7 +1980,9 @@ body {
         margin-right: auto;
     }
 
-    .hero-ctas, .hero-trust, .trust-avatars {
+    .hero-ctas,
+    .hero-trust,
+    .trust-avatars {
         justify-content: center;
         text-align: center;
     }
@@ -1990,14 +1994,14 @@ body {
     .solutions-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .solution-card {
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .sol-icon {
         margin-left: auto;
         margin-right: auto;
@@ -2017,7 +2021,7 @@ body {
     .steps-list {
         grid-template-columns: 1fr;
     }
-    
+
     .step-item {
         flex-direction: column;
         align-items: center;
@@ -2039,8 +2043,9 @@ body {
     .doc-split {
         grid-template-columns: 1fr;
     }
-    
-    .doc-left p, .doc-right p {
+
+    .doc-left p,
+    .doc-right p {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -2049,20 +2054,21 @@ body {
     .testimonials-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .testimonial-card {
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .quote-icon, .quote-stars {
+
+    .quote-icon,
+    .quote-stars {
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
     }
-    
+
     .testimonial-author {
         flex-direction: column;
         justify-content: center;
@@ -2072,8 +2078,11 @@ body {
     .form-row {
         grid-template-columns: 1fr;
     }
-    
-    .form-card, .form-title, .form-label, .form-group {
+
+    .form-card,
+    .form-title,
+    .form-label,
+    .form-group {
         text-align: center;
         align-items: center;
     }
@@ -2088,7 +2097,7 @@ body {
     .footer-logo {
         justify-content: center;
     }
-    
+
     .footer-socials {
         justify-content: center;
     }
