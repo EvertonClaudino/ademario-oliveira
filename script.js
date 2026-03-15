@@ -84,3 +84,40 @@ document.querySelectorAll('.steps-list').forEach(list => {
     });
     stepObserver.observe(list);
 });
+
+const form = document.querySelector("#formContato");
+
+form.addEventListener("submit", async (e) => {
+
+    e.preventDefault();
+
+    const data = {
+        nome: form.nome.value,
+        telefone: form.telefone.value,
+        email: form.email.value,
+        descricao: form.descricao.value,
+        tipo_servico_id: form.servico.value
+    };
+
+    try {
+
+        const res = await fetch("/api/contato", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (res.ok) {
+            alert("Mensagem enviada com sucesso!");
+            form.reset();
+        } else {
+            alert("Erro ao enviar.");
+        }
+
+    } catch (err) {
+        alert("Erro de conexão.");
+    }
+
+});

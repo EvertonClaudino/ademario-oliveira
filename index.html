@@ -238,7 +238,7 @@
                 <div class="sobre-img-wrap reveal-left">
                     <div class="sobre-img-frame">
                         <div class="sobre-img-placeholder">
-                            <img src="./image/foto-ademario.jpeg" class="sobre-img" alt="Ademario Oliveira">
+                            <img src="./image/foto-ademario.png" class="sobre-img" alt="Ademario Oliveira">
                         </div>
                     </div>
                     <div class="sobre-badge">
@@ -374,39 +374,41 @@
                     </div>
                 </div>
                 <div class="reveal-right">
-                    <div class="form-card">
+                    <form id="formContato" class="form-card">
                         <h3 class="form-title">Orçamento Detalhado</h3>
                         <div class="form-group">
                             <label class="form-label">Nome ou Empresa</label>
-                            <input type="text" class="form-input" placeholder="Seu nome completo ou razão social">
+                            <input type="text" name="nome" class="form-input"
+                                placeholder="Seu nome completo ou razão social">
                         </div>
                         <div class="form-row">
                             <div class="form-group">
                                 <label class="form-label">E-mail</label>
-                                <input type="email" class="form-input" placeholder="seu@email.com.br">
+                                <input type="email" name="email" class="form-input" placeholder="seu@email.com.br">
                             </div>
                             <div class="form-group">
-                                <label class="form-label">WhatsApp</label>
-                                <input type="tel" class="form-input" placeholder="(00) 00000-0000">
+                                <label class="form-label">Número</label>
+                                <input type="tel" name="telefone" class="form-input" placeholder="(00) 00000-0000">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="form-label">Tipo de Serviço</label>
-                            <select class="form-select form-input">
-                                <option>Crédito para Negativados</option>
-                                <option>Reforma Residencial</option>
-                                <option>Construção Nova</option>
-                                <option>Gestão de Obra</option>
-                                <option>Projeto e Consultoria</option>
+                            <select name="servico" class="form-select form-input">
+                                <option value="1">Crédito para Negativados</option>
+                                <option value="2">Reforma Residencial</option>
+                                <option value="3">Construção Nova</option>
+                                <option value="4">Gestão de Obra</option>
+                                <option value="5">Projeto e Consultoria</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label class="form-label">Descreva sua Obra</label>
-                            <textarea class="form-textarea form-input"
+                            <textarea name="descricao" class="form-textarea form-input"
                                 placeholder="Descreva brevemente sua obra (m², localização, prazos)..."></textarea>
                         </div>
-                        <button class="btn-submit">Enviar Solicitação <i class="fas fa-arrow-right"></i></button>
-                    </div>
+                        <button type="submit" class="btn-submit">Enviar Solicitação <i
+                                class="fas fa-arrow-right"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -425,7 +427,7 @@
                 </a>
                 <p class="footer-copy">© 2026 Ademario Oliveira Construção Civil. Todos os direitos reservados.</p>
                 <div class="footer-socials">
-                    <a href="https://www.instagram.com/eng.ademario?igsh=MW1nd2g0azlnNTlnOQ==" class="social-btn"
+                    <a href="https://www.instagram.com/eng.ademario?igsh=MW1nd2g0azlnNTlnOQ" class="social-btn"
                         target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://wa.me/5575999256300" class="social-btn" target="_blank"><i
                             class="fab fa-whatsapp"></i></a>
