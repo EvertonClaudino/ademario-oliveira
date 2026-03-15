@@ -450,8 +450,11 @@ body {
 .hero-desc {
     font-size: 16px;
     font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     color: rgba(255, 255, 255, 0.7);
-    max-width: 480px;
+    max-width: 550px;
     line-height: 1.78;
     margin-bottom: 38px;
 }
@@ -812,8 +815,8 @@ body {
 }
 
 .steps-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 4px;
 }
 
@@ -1918,6 +1921,21 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 
+    .hero-tag-pill {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-tag {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dep-tag {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .sobre-grid {
         grid-template-columns: 1fr;
         gap: 56px;
@@ -1925,12 +1943,9 @@ body {
 
     .sobre-img-wrap {
         max-width: 360px;
+        margin: 0 auto;
     }
 
-    .programa-grid {
-        grid-template-columns: 1fr;
-        gap: 56px;
-    }
 
     .contato-grid {
         grid-template-columns: 1fr;
@@ -1949,6 +1964,22 @@ body {
 
     .hero-headline {
         font-size: 36px;
+        text-align: center;
+    }
+
+    .hero-rule-line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-desc {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-ctas {
+        justify-content: center;
     }
 
     .stats-grid {
@@ -1957,6 +1988,32 @@ body {
 
     .solutions-grid {
         grid-template-columns: 1fr;
+    }
+
+    .sobre-badge {
+        right: 0;
+        bottom: 10px;
+        padding: 12px 16px;
+    }
+
+    .sobre-badge-num {
+        font-size: 28px;
+    }
+
+    .steps-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-info-item {
+        flex-direction: column;
+
+    }
+
+
+    .programa-grid {
+        grid-template-columns: 1fr;
+        gap: 56px;
+        text-align: center;
     }
 
     .doc-split {
@@ -1973,7 +2030,13 @@ body {
 
     .footer-inner {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+        gap: 24px;
+    }
+
+    .footer-logo {
+        justify-content: center;
     }
 
     .sobre-skills {
@@ -1982,6 +2045,54 @@ body {
 
     .section-header-inner {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .section-body {
+        text-align: center;
+    }
+
+    .sobre-divider,
+    .hero-rule-line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sobre-name,
+    .sobre-subtitle,
+    .sobre-text {
+        text-align: center;
+    }
+
+    .doc-left,
+    .doc-right {
+        text-align: center;
+        align-items: center;
+    }
+
+    .checklist {
+        align-items: center;
+    }
+
+    .btn-white,
+    .btn-primary,
+    .btn-secondary {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contato-heading,
+    .contato-desc {
+        text-align: center;
+    }
+
+    .contact-info-list {
+        flex-direction: row;
         align-items: flex-start;
     }
 }
