@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge)](https://ademario-oliveira.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
 
-[🌐 Ver Site ao Vivo](https://ademario-oliveira.vercel.app) • [📬 Contato](mailto:ademariooliveiranft1@gmail.com)
+[🌐 Ver Site ao Vivo](https://ademario-oliveira.vercel.app)
 
 </div>
 
