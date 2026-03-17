@@ -49,36 +49,6 @@ Landing page profissional desenvolvida para **Ademario Oliveira**, Engenheiro Ci
 
 ---
 
-## 🚀 Como Executar Localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repo.git
-
-# Acesse a pasta do projeto
-cd nome-do-repo
-
-# Abra o arquivo index.html no navegador
-# ou use uma extensão como Live Server no VS Code
-```
-
-> Não requer instalação de dependências — o projeto é 100% front-end estático.
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-📦 ademario-oliveira
- ┣ 📂 image/
- ┃ ┗ 📸 foto-ademario.png
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┗ 📄 script.js
-```
-
----
-
 ## 📱 Seções do Site
 
 | # | Seção | Descrição |
